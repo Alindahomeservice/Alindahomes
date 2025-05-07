@@ -91,7 +91,7 @@ figure {
   @media screen and (max-width: 1200px) {
     #colorlib-aside {
       width: 30%; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 420px) {
     #colorlib-aside {
       width: 270px;
       -moz-transform: translateX(-270px);
