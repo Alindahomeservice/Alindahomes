@@ -221,12 +221,12 @@ figure {
   @media screen and (max-width: 1200px) {
     #colorlib-main {
       width: 70%; } }
-  @media screen and (max-width:210px) {
+  @media screen and (max-width:420px) {
     #colorlib-main {
-      width: 100%; } }
+      width: 95%; } }
 
 #colorlib-hero {
-  min-height: 210px;
+  min-height: 500px;
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
@@ -243,8 +243,11 @@ figure {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom center;
-        min-height: 210px;
+        min-height: 420px;
         position: relative; }
+    @media screen and (max-width:420px) {
+      #colorlib-hero .flexslider .slides li{
+        width: 95%; } }
     #colorlib-hero .flexslider .flex-control-nav {
       bottom: 20px;
       z-index: 1000;
