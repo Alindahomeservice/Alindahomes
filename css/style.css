@@ -51,7 +51,7 @@ figure {
     color: #b3b3b3;
     font-style: italic;
     font-family: "Quicksand", Arial, sans-serif; }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 720px) {
       figure figcaption {
         width: 100%; } }
 
@@ -91,9 +91,9 @@ figure {
   @media screen and (max-width: 1200px) {
     #colorlib-aside {
       width: 30%; } }
-  @media screen and (max-width: 720px) {
+  @media screen and (max-width: 780px) {
     #colorlib-aside {
-      width: 90%;
+      width: 270px;
       -moz-transform: translateX(-270px);
       -webkit-transform: translateX(-270px);
       -ms-transform: translateX(-270px);
@@ -221,7 +221,7 @@ figure {
   @media screen and (max-width: 1200px) {
     #colorlib-main {
       width: 70%; } }
-  @media screen and (max-width:720px) {
+  @media screen and (max-width:780px) {
     #colorlib-main {
       width: 100%; } }
 
@@ -243,11 +243,8 @@ figure {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom center;
-        min-height: 420px;
+        min-height: 680px;
         position: relative; }
-    @media screen and (max-width:720px) {
-      #colorlib-hero .flexslider .slides li{
-        width: 100%; } }
     #colorlib-hero .flexslider .flex-control-nav {
       bottom: 20px;
       z-index: 1000;
