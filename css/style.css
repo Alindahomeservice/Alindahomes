@@ -226,12 +226,15 @@ figure {
       width: 100%; } }
 
 #colorlib-hero {
-  min-height: 200px;
+  min-height: 420px;
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
-  float: left;
+  float: both;
   margin-bottom: 10em;
   clear: both; }
+ @media screen and (max-width:100px) {
+    #colorlib-hero {
+      width: 100%; } }
   #colorlib-hero .flexslider {
     border: none;
     z-index: 1;
@@ -243,7 +246,7 @@ figure {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom center;
-        min-height: 200px;
+        min-height: 420px;
         position: relative; }
     #colorlib-hero .flexslider .flex-control-nav {
       bottom: 20px;
