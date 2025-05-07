@@ -91,9 +91,9 @@ figure {
   @media screen and (max-width: 1200px) {
     #colorlib-aside {
       width: 30%; } }
-  @media screen and (max-width: 420px) {
+  @media screen and (max-width: 720px) {
     #colorlib-aside {
-      width: 270px;
+      width: 90%;
       -moz-transform: translateX(-270px);
       -webkit-transform: translateX(-270px);
       -ms-transform: translateX(-270px);
@@ -221,9 +221,9 @@ figure {
   @media screen and (max-width: 1200px) {
     #colorlib-main {
       width: 70%; } }
-  @media screen and (max-width:420px) {
+  @media screen and (max-width:720px) {
     #colorlib-main {
-      width: 95%; } }
+      width: 100%; } }
 
 #colorlib-hero {
   min-height: 500px;
@@ -245,9 +245,9 @@ figure {
         background-position: bottom center;
         min-height: 420px;
         position: relative; }
-    @media screen and (max-width:420px) {
+    @media screen and (max-width:720px) {
       #colorlib-hero .flexslider .slides li{
-        width: 95%; } }
+        width: 100%; } }
     #colorlib-hero .flexslider .flex-control-nav {
       bottom: 20px;
       z-index: 1000;
